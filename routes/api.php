@@ -14,7 +14,7 @@ Route::put('/students/{id}',[StudentController::class,'update']);
 Route::patch('/students/{id}',[StudentController::class,'updatePartial']);
 Route::delete('/students/{id}',[StudentController::class,'destroy']);
 //RUTAS DE  LOS DOCENTES
-Route::get('/teachers',[TeacherController::class,'index']);
+//Route::get('/teachers',[TeacherController::class,'index']);
 //Route::get('/teachers/{id}',[TeacherController::class,'show']); TAREA
 //Route::post('/teachers',[TeacherController::class,'store']);
 //Route::put('/teachers/{id}',[TeacherController::class,'update']);
